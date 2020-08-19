@@ -1,124 +1,466 @@
-
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en-US">
 <head>
-<meta charset="UTF-8">
-<title>Responsive slider timeline with Swiper</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>名字</title>
+    <meta name="keywords" content="">
+	<meta name="description" content="">
+    <meta name="author" content="templatemo">
+    
+    
+	<!-- Google Fonts -->
+	<!--<link href="http://fonts.useso.com/css?family=PT+Serif:400,700,400italic,700itali" rel="stylesheet">
+	<link href="http://fonts.useso.com/css?family=Raleway:400,900,800,700,500,200,100,600" rel="stylesheet">-->
 
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800'>
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="bootstrap/bootstrap.css">
+	<link rel="stylesheet" href="css/misc.css">
+	<link rel="stylesheet" href="css/blue-scheme.css">
+	
+	<!-- JavaScripts -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/jquery-migrate-1.2.1.min.js"></script>
 
-<link rel='stylesheet' href='css/swiper.min.css'>
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 
-<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+	<div class="responsive_menu">
+        <ul class="main_menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Portfolio</a>
+            	<ul>
+            		<li><a href="#">Portfolio Grid</a></li>
+            		<li><a href="#">Project Image</a></li>
+            		<li><a href="#">Project Slideshow</a></li>
+            	</ul>
+            </li>
+            <li><a href="#">Blog</a>
+				<ul>
+					<li><a href="#">Blog Standard</a></li>
+					<li><a href="#">Blog Single</a></li>
+                    <li><a href="#">visit templatemo</a></li>
+				</ul>
+            </li>
+            <li><a href="#">Archives</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul> <!-- /.main_menu -->
+    </div> <!-- /.responsive_menu -->
 
+	<header class="site-header clearfix">
+		<div class="container">
 
-<div class="container">
-  <!--<h1 class="title">标题</h1>-->
-  <div class="c-nav">
-	<div class="container navFlex">
-		<div class="flexItem">
-			<img  class="logo" src="img/11111.png" />
-		</div>
+			<div class="row">
+
+				<div class="col-md-12">
+
+					<div class="pull-left logo">
+						<a href="index.html">
+							<img src="images/logo.png" alt="1111">
+						</a>
+					</div>	<!-- /.logo -->
+
+					<div class="main-navigation pull-right">
+
+						<nav class="main-nav visible-md visible-lg">
+							<ul class="sf-menu">
+								<li class="active"><a href="index.html">a</a></li>
+					            <li><a href="#">s</a>
+					            	<ul>
+					            		<li><a href="#">d</a></li>
+					            		<li><a href="#">e</a></li>
+					            		<li><a href="#">f</a></li>
+					            	</ul>
+					            </li>
+					            <li><a href="#">d</a>
+									<ul>
+										<li><a href="#">a</a></li>
+										<li><a href="#">s</a></li>
+                                        <li><a href="#">d</a></li>
+									</ul>
+					            </li>
+					            <li><a href="#">c</a></li>
+					            <li><a href="#">e</a></li>
+							</ul> <!-- /.sf-menu -->
+						</nav> <!-- /.main-nav -->
+
+						<!-- This one in here is responsive menu for tablet and mobiles -->
+					    <div class="responsive-navigation visible-sm visible-xs">
+					        <a href="#nogo" class="menu-toggle-btn">
+					            <i class="fa fa-bars"></i>
+					        </a>
+					    </div> <!-- /responsive_navigation -->
+
+					</div> <!-- /.main-navigation -->
+
+				</div> <!-- /.col-md-12 -->
+
+			</div> <!-- /.row -->
+
+		</div> <!-- /.container -->
+	</header> <!-- /.site-header -->
+
+	<section id="homeIntro" class="parallax first-widget">
+	    <div class="parallax-overlay">
+		    <div class="container home-intro-content">
+		        <div class="row">
+		        	<div class="col-md-12">
+		        		<h2>aaa</h2>
+		        		<p>bbbb</p>
+		        		<!--<a href="#" class="large-button white-color">Download Free <i class="icon-button fa fa-download"></i></a>-->
+		        	</div> <!-- /.col-md-12 -->
+		        </div> <!-- /.row -->
+		    </div> <!-- /.container -->
+	    </div> <!-- /.parallax-overlay -->
+	</section> <!-- /#homeIntro -->
+
+	
+	<div class="copyrights">Collect from <a href="#" >手机网站模板</a></div>
+	<section class="light-content services">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-4 col-sm-4">
+					<div class="service-box-wrap">
+						<div class="service-icon-wrap">
+							<i class="fa fa-umbrella fa-2x"></i>
+						</div> <!-- /.service-icon-wrap -->
+						<div class="service-cnt-wrap">
+							<h3 class="service-title">1</h3>
+							<p>1111111111</p>
+						</div> <!-- /.service-cnt-wrap -->
+					</div> <!-- /.service-box-wrap -->
+				</div> <!-- /.col-md-4 -->
+
+				<div class="col-md-4 col-sm-4">
+					<div class="service-box-wrap">
+						<div class="service-icon-wrap">
+							<i class="fa fa-mobile-phone fa-2x"></i>
+						</div> <!-- /.service-icon-wrap -->
+						<div class="service-cnt-wrap">
+							<h3 class="service-title">2</h3>
+							<p>2222</p>
+						</div> <!-- /.service-cnt-wrap -->
+					</div> <!-- /.service-box-wrap -->
+				</div> <!-- /.col-md-4 -->
+
+				<div class="col-md-4 col-sm-4">
+					<div class="service-box-wrap">
+						<div class="service-icon-wrap">
+							<i class="fa fa-pencil-square-o fa-2x"></i>
+						</div> <!-- /.service-icon-wrap -->
+						<div class="service-cnt-wrap">
+							<h3 class="service-title">3</h3>
+							<p>3333</p>
+						</div> <!-- /.service-cnt-wrap -->
+					</div> <!-- /.service-box-wrap -->
+				</div> <!-- /.col-md-4 -->
+
+			</div>
+
+			<div class="row">
+				
+				<div class="col-md-4 col-sm-4">
+					<div class="service-box-wrap">
+						<div class="service-icon-wrap">
+							<i class="fa fa-code fa-2x"></i>
+						</div> <!-- /.service-icon-wrap -->
+						<div class="service-cnt-wrap">
+							<h3 class="service-title">4</h3>
+							<p>44444</p>
+						</div> <!-- /.service-cnt-wrap -->
+					</div> <!-- /.service-box-wrap -->
+				</div> <!-- /.col-md-4 -->
+
+				<div class="col-md-4 col-sm-4">
+					<div class="service-box-wrap">
+						<div class="service-icon-wrap">
+							<i class="fa fa-eye-slash fa-2x"></i>
+						</div> <!-- /.service-icon-wrap -->
+						<div class="service-cnt-wrap">
+							<h3 class="service-title">5</h3>
+							<p>5555</p>
+						</div> <!-- /.service-cnt-wrap -->
+					</div> <!-- /.service-box-wrap -->
+				</div> <!-- /.col-md-4 -->
+
+				<div class="col-md-4 col-sm-4">
+					<div class="service-box-wrap">
+						<div class="service-icon-wrap">
+							<i class="fa fa-suitcase fa-2x"></i>
+						</div> <!-- /.service-icon-wrap -->
+						<div class="service-cnt-wrap">
+							<h3 class="service-title">6</h3>
+							<p>666</p>
+						</div> <!-- /.service-cnt-wrap -->
+					</div> <!-- /.service-box-wrap -->
+				</div> <!-- /.col-md-4 -->
+
+			</div> <!-- /.row -->
+		</div> <!-- /.container -->
+	</section> <!-- /.services -->
+
+	<section class="dark-content portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-header">
+						<h2 class="section-title">轮播图</h2>
+						<p class="section-desc">副标题</p>
+					</div> <!-- /.section-header -->
+				</div> <!-- /.col-md-12 -->
+			</div> <!-- /.row -->
+		</div> <!-- /.container -->
 		
-		<div class="flexItem hiden">
-			<img class="btnImg" src="img/navBtn.png" />
-		</div>
-		<div class="flexItem show">
-			<ul>
-				<li><a href="#">首页</a></li>
-				<li><a href="#">品牌故事</a></li>
-				<li><a href="#">产品中心</a></li>
-				<li><a href="#">网上商城</a></li>
-				<li><a href="#">招商加盟</a></li>
-				<li><a href="#">行业新闻</a></li>
-				<li><a href="#">联系我们</a></li>
-			</ul>
-		</div>
-	</div>
-</div>
-  <script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript">
-//用于判断导航栏的状态
-var toggle = true;
+		<div id="portfolio-carousel" class="portfolio-carousel portfolio-holder">
+			<div class="item">
+				<div class="thumb-post">
+					<div class="overlay">
+						<div class="overlay-inner">
+							<div class="portfolio-infos">
+								<span class="meta-category">4</span>
+								<h3 class="portfolio-title"><a href="project-slideshow.html">4444</a></h3>
+							</div>
+							<div class="portfolio-expand">
+								<a class="fancybox" href="images/1.jpg" title="Visual Admin">
+									<i class="fa fa-expand"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<img src="images/1.jpg" alt="Visual Admin">
+				</div>
+			</div> <!-- /.item -->
+			<div class="item">
+				<div class="thumb-post">
+					<div class="overlay">
+						<div class="overlay-inner">
+							<div class="portfolio-infos">
+								<span class="meta-category">33</span>
+								<h3 class="portfolio-title"><a href="project-slideshow.html">3333</a></h3>
+							</div>
+							<div class="portfolio-expand">
+								<a class="fancybox" href="images/1.jpg" title="Compass Template">
+									<i class="fa fa-expand"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<img src="images/2.jpg" alt="Compass Template">
+				</div>
+			</div> <!-- /.item -->
+			<div class="item">
+				<div class="thumb-post">
+					<div class="overlay">
+						<div class="overlay-inner">
+							<div class="portfolio-infos">
+								<span class="meta-category">2</span>
+								<h3 class="portfolio-title"><a href="project-slideshow.html">22</a></h3>
+							</div>
+							<div class="portfolio-expand">
+								<a class="fancybox" href="images/1.jpg" title="Awesome Theme">
+									<i class="fa fa-expand"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<img src="images/1.jpg" alt="Awesome Theme">
+				</div>
+			</div> <!-- /.item -->
+			<div class="item">
+				<div class="thumb-post">
+					<div class="overlay">
+						<div class="overlay-inner">
+							<div class="portfolio-infos">
+								<span class="meta-category">1</span>
+								<h3 class="portfolio-title"><a href="project-slideshow.html">11</a></h3>
+							</div>
+							<div class="portfolio-expand">
+								<a class="fancybox" href="images/2.jpg" title="Volton Personal Site">
+									<i class="fa fa-expand"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<img src="images/2.jpg" alt="Volton Personal Site">
+				</div>
+			</div> <!-- /.item -->
+			<div class="item">
+				<div class="thumb-post">
+					<div class="overlay">
+						<div class="overlay-inner">
+							<div class="portfolio-infos">
+								<span class="meta-category">Green</span>
+								<h3 class="portfolio-title"><a href="project-slideshow.html">Rectangle Design</a></h3>
+							</div>
+							<div class="portfolio-expand">
+								<a class="fancybox" href="images/includes/project5.jpg" title="Rectangle Design">
+									<i class="fa fa-expand"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<img src="images/1.jpg" alt="Rectangle Design">
+				</div>
+			</div> <!-- /.item -->
+			<div class="item">
+				<div class="thumb-post">
+					<div class="overlay">
+						<div class="overlay-inner">
+							<div class="portfolio-infos">
+								<span class="meta-category">Portfolio</span>
+								<h3 class="portfolio-title"><a href="project-slideshow.html">Masonry Gallery</a></h3>
+							</div>
+							<div class="portfolio-expand">
+								<a class="fancybox" href="images/includes/project6.jpg" title="Masonry Gallery">
+									<i class="fa fa-expand"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<img src="images/2.jpg" alt="Masonry Gallery">
+				</div>
+			</div> <!-- /.item -->
+			<div class="item">
+				<div class="thumb-post">
+					<div class="overlay">
+						<div class="overlay-inner">
+							<div class="portfolio-infos">
+								<span class="meta-category">Branding / Identity</span>
+								<h3 class="portfolio-title"><a href="project-slideshow.html">Gloss Template</a></h3>
+							</div>
+							<div class="portfolio-expand">
+								<a class="fancybox" href="images/includes/project7.jpg" title="Gloss Template">
+									<i class="fa fa-expand"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<img src="images/includes/project7.jpg" alt="Gloss Template">
+				</div>
+			</div> <!-- /.item -->
+		</div> <!-- /#owl-demo -->
+	</section> <!-- /.portfolio-holder -->
 
-//导航栏按钮
-$('.btnImg').click(function() {
-	if (toggle) {
-		$('.btnImg').css("border", "1px solid #b0ccf3");
-		toggle = false
-	} else {
-		$('.btnImg').css("border", "1px solid transparent");
-		toggle = true;
-	}
-	$(".show").slideToggle(300);
-})
+	<section class="testimonials-widget">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="bxslider">
+						<div class="testimonial">
+							<div class="testimonial-content">
+								<span class="testimonial-author">11</span>
+								<p class="testimonial-description">111</p>
+							</div>
+						</div>
+						<div class="testimonial">
+							<div class="testimonial-content">
+								<span class="testimonial-author">22</span>
+								<p class="testimonial-description">222</p>
+							</div>
+						</div>
+						<div class="testimonial">
+							<div class="testimonial-content">
+								<span class="testimonial-author">33</span>
+								<p class="testimonial-description">333</p>
+							</div>
+						</div>
+					</div> <!-- /.bxslider -->
+				</div> <!-- /.col-md-12 -->
+			</div> <!-- /.row -->
+		</div> <!-- /.container -->
+	</section> <!-- /.testimonials-widget -->
 
-//窗口大小发生改变
-$(window).resize(function() {
-	//获取窗口宽度
-	var windSize = $(window).width();
+	<section class="light-content our-team">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-header">
+						<h2 class="section-title">认识我们快乐的员工</h2>
+						<p class="section-desc">111</p>
+					</div> <!-- /.section-header -->
+				</div> <!-- /.col-md-12 -->
+			</div> <!-- /.row -->
+		</div> <!-- /.container -->
+		<div class="team-members">
+			<div class="container">
+				<div class="row">
 
-	if (windSize > 576) {
-		$(".show").slideDown(0);
-	} else {
-		$(".show").slideUp(0);
-	}
-});
-</script>
-  
-  
-  
-  <div class="timeline">
-    <div class="swiper-container">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide" style="background-image: url(img/1.jpg);" data-year="简介">
-          <div class="swiper-slide-content"><span class="timeline-year">简介</span>
-            <h4 class="timeline-title">文字文字文字文字文字</h4>
-            <p class="timeline-text">文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字</p>
-          </div>
-        </div>
-        <div class="swiper-slide" style="background-image: url(img/2.jpg);" data-year="第二栏">
-          <div class="swiper-slide-content"><span class="timeline-year">111</span>
-            <h4 class="timeline-title">文字文字文字文字文字</h4>
-            <p class="timeline-text">文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字</p>
-          </div>
-        </div>
-        <div class="swiper-slide" style="background-image: url(img/3.jpg);" data-year="第三栏">
-          <div class="swiper-slide-content"><span class="timeline-year">333</span>
-            <h4 class="timeline-title">文字文字文字文字文字</h4>
-            <p class="timeline-text">文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字</p>
-          </div>
-        </div>
-        <div class="swiper-slide" style="background-image: url(img/4.jpg);" data-year="第四栏">
-          <div class="swiper-slide-content"><span class="timeline-year">444</span>
-            <h4 class="timeline-title">文字文字文字文字文字</h4>
-            <p class="timeline-text">文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字</p>
-          </div>
-        </div>
-        <div class="swiper-slide" style="background-image: url(img/5.jpg);" data-year="第五栏">
-          <div class="swiper-slide-content"><span class="timeline-year">555</span>
-            <h4 class="timeline-title">文字文字文字文字文字</h4>
-            <p class="timeline-text">文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字</p>
-          </div>
-        </div>
-        <div class="swiper-slide" style="background-image: url(img/6.jpg);" data-year="第六栏">
-          <div class="swiper-slide-content"><span class="timeline-year">666</span>
-            <h4 class="timeline-title">Our nice super title</h4>
-            <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          </div>
-        </div>
-      </div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-pagination"></div>
-    </div>
-  </div>
-</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="team-member">
+							<div class="thumb-post">
+								<img src="images/1.jpg" alt="">
+								<span class="member-role">111</span>
+							</div>
+							<div class="member-content">
+								<h4 class="member-name">111</h4>
+								<p>111</p>
+							</div>
+						</div> <!-- /.team-member -->
+					</div> <!-- /.col-md-4 -->
 
-<script src='js/swiper.min.js'></script>
-<script src="js/script.js"></script>
+					<div class="col-md-4 col-sm-4">
+						<div class="team-member">
+							<div class="thumb-post">
+								<img src="images/2.jpg" alt="">
+								<span class="member-role">2222</span>
+							</div>
+							<div class="member-content">
+								<h4 class="member-name">2222</h4>
+								<p>2222222222</p>
+							</div>
+						</div> <!-- /.team-member -->
+					</div> <!-- /.col-md-4 -->
+
+					<div class="col-md-4 col-sm-4">
+						<div class="team-member">
+							<div class="thumb-post">
+								<img src="images/1.jpg" alt="">
+								<span class="member-role">3333</span>
+							</div>
+							<div class="member-content">
+								<h4 class="member-name">3333</h4>
+								<p>333333 </p>
+							</div>
+						</div> <!-- /.team-member -->
+					</div> <!-- /.col-md-4 -->
+
+				</div> <!-- /.row -->
+			</div> <!-- /.container -->
+		</div> <!-- /.team-members -->
+	</section> <!-- /.our-team -->
+	
+	<section id="blogPosts" class="parallax">
+	</section> <!-- /#blogPosts -->
+
+	<footer class="site-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<nav class="footer-nav clearfix">
+						<ul class="footer-menu">
+							<li><a href="index.html">A</a></li>
+							<li><a href="#">B</a></li>
+							<li><a href="#">C</a></li>
+							<li><a href="#">D</a></li>
+							<li><a href="#">E</a></li>
+						</ul> <!-- /.footer-menu -->
+					</nav> <!-- /.footer-nav -->
+				</div> <!-- /.col-md-12 -->
+			</div> <!-- /.row -->
+			<div class="row">
+				<div class="col-md-12">
+					<!--<p class="copyright-text">Copyright &copy; 2084 Company Name 
+                    | More Templates <a href="#" target="_blank" title="17素材网">17素材网</a> - Collect from <a href="http://www.17sucai.com/" title="网页模板" target="_blank">网页模板</a></p>-->
+				</div> <!-- /.col-md-12 -->
+			</div> <!-- /.row -->
+		</div> <!-- /.container -->
+	</footer> <!-- /.site-footer -->
+
+	<!-- Scripts -->
+	<script src="js/min/plugins.min.js"></script>
+	<script src="js/min/medigo-custom.min.js"></script>
 
 </body>
 </html>
